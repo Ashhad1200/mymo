@@ -8,9 +8,7 @@ import Home from "../../Components/Home/Home";
 const { Header, Content, Footer } = Layout;
 
 const WR = () => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-    } = theme.useToken();
+
     return (
         <Layout>
 
@@ -23,16 +21,10 @@ const WR = () => {
                 }}
             >
 
-                <div
-                    style={{
-                        background: colorBgContainer,
-                        borderRadius: borderRadiusLG,
-                    }}
-                >
 
                     <Home />
                     
-                </div>
+           
             </Content>
 
             <MainFooter />

@@ -1,38 +1,37 @@
-
-import Nav from 'react-bootstrap/Nav';
 import React, { useState } from 'react';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import Link from 'antd/es/typography/Link';
 import { Menu } from 'antd';
 const items = [
   {
     label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+      <Link to="/features" >
         Home
-      </a>
+      </Link>
     ),
     key: 'home',
   },
   {
     label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+      <Link href="https://ant.design" target="_blank" rel="noopener noreferrer">
         Features
-      </a>
+      </Link>
     ),
     key: 'features',
   },
   {
     label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+      <Link href="https://ant.design" target="_blank" rel="noopener noreferrer">
         Integration
-      </a>
+      </Link>
     ),
     key: 'integration',
   },
   {
     label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+      <Link href="https://ant.design" target="_blank" rel="noopener noreferrer">
         Pricing
-      </a>
+      </Link>
     ),
     key: 'pricing',
   },

@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- Tailwind Classes  -->
+
+Layout Classes:
+
+container: Centers content horizontally with padding on the sides.
+mx-auto: Horizontally centers an element.
+flex: Establishes a flex container.
+grid: Establishes a grid container.
+col-span-X: Spans across X number of grid columns.
+row-span-X: Spans across X number of grid rows.
+
+
+Spacing Classes:
+
+m-X: Margin utility where X can be a number from 0 to 8 or auto.
+p-X: Padding utility where X can be a number from 0 to 8.
+mt-X, mb-X, ml-X, mr-X: Margin top, bottom, left, right utilities.
+pt-X, pb-X, pl-X, pr-X: Padding top, bottom, left, right utilities.
+space-X: Adds space between child elements in a flex container, where X can be y, x, y-reverse, or x-reverse.
+
+
+Typography Classes:
+
+text-X: Sets text size where X can be xs, sm, base, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl.
+font-X: Sets font style where X can be sans, serif, mono.
+text-center, text-left, text-right: Aligns text.
+font-bold, font-normal, font-semibold, font-thin: Adjusts font weight.
+uppercase, lowercase, capitalize, normal-case: Adjusts text casing.
+
+
+Color Classes:
+
+bg-X: Sets background color where X is the color name or HEX value.
+text-X: Sets text color where X is the color name or HEX value.
+border-X: Sets border color where X is the color name or HEX value.
+
+
+Border and Rounded Classes:
+
+border: Adds a border to an element.
+rounded: Adds rounded corners to an element.
+border-solid, border-dashed, border-dotted: Defines border styles.
+rounded-X: Sets the border-radius where X can be none, sm, md, lg, full.
+
+
+Utility Classes:
+
+hidden: Hides an element.
+overflow-hidden: Hides overflowing content.
+cursor-X: Sets cursor style where X can be pointer, not-allowed, etc.
+shadow-X: Adds shadow where X can be sm, md, lg, xl, 2xl, inner, outline, none.
