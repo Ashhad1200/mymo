@@ -5,7 +5,7 @@ import { Menu } from 'antd';
 const items = [
   {
     label: (
-      <Link to="/features" >
+      <Link to="/" >
         Home
       </Link>
     ),
@@ -13,7 +13,7 @@ const items = [
   },
   {
     label: (
-      <Link href="https://ant.design" target="_blank" rel="noopener noreferrer">
+      <Link to="/features">
         Features
       </Link>
     ),
@@ -38,12 +38,12 @@ const items = [
 ];
 
 const NavigationBar = () => {
-    const [current, setCurrent] = useState('mail');
-    const onClick = (e) => {
-      console.log('click ', e);
-      setCurrent(e.key);
-    };
-    return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal"  items={items} />;
+  const [current, setCurrent] = useState('mail');
+  const onClick = (e) => {
+    console.log('click ', e);
+    setCurrent(e.key);
+  };
+  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
 }
 
 export default NavigationBar;
